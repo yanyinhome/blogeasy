@@ -3,7 +3,6 @@ import { Input } from 'antd';
 import logo from '../../../static/img/logo.png';
 import head from '../../../static/img/head.jpg';
 import './index.less';
-import UserService from 'SERVICES/userService';
 import test from './test';
 import userService from 'SERVICES/userService'
 const Search = Input.Search;

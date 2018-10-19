@@ -17,6 +17,7 @@ class ArticleService {
     }
     // 主页文章
     pullIndexArticle (data) {
+      console.log("1")
       return xhr({
         method: "post",
         url: "http://127.0.0.1:9001/article/pullIndexArticle",
